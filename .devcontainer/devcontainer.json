@@ -1,0 +1,6 @@
+{
+	"name": "Python 3",
+	"image": "mcr.microsoft.com/devcontainers/python:3.8",
+
+	"postCreateCommand": "sudo apt-get update && sudo apt-get -y install --no-install-recommends openjdk-11-jdk"
+}
